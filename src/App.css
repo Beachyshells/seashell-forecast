@@ -1,16 +1,53 @@
 .App {
   text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
 }
 
 .Header {
-  background-color: #282c34;
+  background-color: #f5f6f6;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  color: rgb(16, 18, 18);
+}
+
+.Form {
+  margin-top: 20px;
+}
+.city-input {
+  margin-right: 10px;
+  padding: 5px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
+}
+.btn {
+  padding: 5px 10px;
+  font-size: 16px;
+  background-color: #a6e0f0;
+  border: none;
+  box-shadow: #282c34 0px 2px 4px 0px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.Footer {
+  text-align: center;
+
+  background-color: #282c34;
+  padding-top: 10px;
+  padding-bottom: 10px;
   color: white;
+
+  width: 100%;
+  bottom: 0;
 }
 
 .app-link {

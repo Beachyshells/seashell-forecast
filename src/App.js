@@ -1,13 +1,14 @@
 import React from "react";
 import Header from "./Header";
+
+import Footer from "./Footer";
 import "./App.css";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
+    <div className="App, container">
       <Header />
+      <Footer />
     </div>
   );
 }
-
-export default App;
