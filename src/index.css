@@ -1,3 +1,31 @@
 Body {
   background-color: rgb(204, 225, 246);
 }
+
+h1 {
+  font-family: "Treasure Map Deadhand", cursive;
+  font-size: 3rem;
+
+  color: #eff0f3;
+  margin-top: 20px;
+}
+h4 {
+  font-family: "Treasure Map Deadhand", cursive;
+
+  font-size: 1em;
+  color: #eff0f3;
+}
+h3 {
+  font-family: "Treasure Map Deadhand", cursive;
+  font-size: 1.75em;
+  font-weight: bold;
+  color: #80782b;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+li {
+  color: rgb(129, 116, 116);
+}

@@ -1,53 +1,75 @@
-.App {
-  text-align: center;
-  max-width: 800px;
-  margin: 0 auto;
-  font-family: Arial, sans-serif;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
+.container {
+  max-width: 700px;
 }
 
 .Header {
-  background-color: #f5f6f6;
-  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: rgb(16, 18, 18);
-}
 
+  color: rgb(16, 18, 18);
+  background: url(./images/app-background.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+}
+.container-header {
+  background-color: #46580c;
+  text-align: center;
+  padding-right: 30px;
+  padding-left: 30px;
+  border-radius: 4px;
+
+  margin-bottom: 20px;
+  opacity: 0.8;
+}
 .Form {
   margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #b7e3f0;
+  border-radius: 4px;
+  opacity: 0.8;
+  padding: 10px;
+  width: 600px;
 }
+
 .city-input {
   margin-right: 10px;
+  width: 100%;
   padding: 5px;
   font-size: 16px;
   border: 2px solid #ccc;
   border-radius: 4px;
-  width: 200px;
 }
 .btn {
-  padding: 5px 10px;
+  width: 30%;
+  color: white;
+  box-shadow: #282c34 0px 4px 8px 0px;
   font-size: 16px;
-  background-color: #a6e0f0;
+  background-color: #80782b;
   border: none;
-  box-shadow: #282c34 0px 2px 4px 0px;
+
   border-radius: 4px;
+  opacity: 0.9;
   cursor: pointer;
+}
+.btn:hover {
+  background-color: #80782b;
+  color: white;
+  box-shadow: #282c34 0px 2px 4px 0px;
+
+  opacity: 1;
 }
 .Footer {
   text-align: center;
-
   background-color: #282c34;
-  padding-top: 10px;
+
   padding-bottom: 10px;
   color: white;
-
   width: 100%;
-  bottom: 0;
+  padding-top: 10px;
 }
 
 .app-link {
